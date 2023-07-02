@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+
+body{
+    /* background-image: url("https://w0.peakpx.com/wallpaper/42/267/HD-wallpaper-nature-scenery-scenery-nature.jpg");
+    background-repeat: fill;
+    background-attachment: fixed;
+    background-size: cover; */
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    /* width: 5rem; */
+    width: 60%;
+    margin-left: 20%;
+    /* margin-left: 8rem; */
+   /* float: left; */
+   /* box-sizing: border-box; */
+}
+
+.ic1:hover, .ic2:hover, .ic3:hover{
+    font-size: 5vw;
+}
+
+.ic1, .ic2, .ic3{
+    /* position: block; */
+    margin:10%;
+    height: 100%;
+    width: 100%;
+    font-size: 4vw;
+    text-align: center;
+
+}
+
+/* .icons:hover{
+    font-size: 2.5rem;
+} */
+
+/* .svg:hover{
+    font-size: 200%;
+} */
+
+p>a{
+    color: green;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+#img{
+    padding: 0rem;
+    height: 100%;
+    /* margin-right: 10rem; */
+    width: 100%; 
+    object-fit: fill;
+    position: relative;
+    
+}
+
+.img{
+    height: 100%;
+    width: 60%;
+}
+
+h2{
+    /* display: inline; */
+    /* margin: 3vw; */
+    color: lightcoral;
+    /* padding:.2rem; */
+    text-align: center;
+    font: 400;
+    font-size: 5vw;
+}
+
+
+
+p{
+    margin: 7vw;
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 2vw;
+}
+
+label{
+    display: flex;
+    justify-content: left;
+    margin-left: 20%;
+    /* align-items: center; */
+    /* align-content: center; */
+    color: red;
+    /* padding:.2rem; */
+    text-align: center;
+    font: 800;
+    font-size: 2vw;
+    /* height: 70%; */
+    width: 100%;
+    /* margin: 10%; */
+}
+
+.form input{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    font-size: 100%;
+    width: 60%;
+    /* height: 100%; */
+    padding: 1vw;
+    margin-left: 20%;
+    margin-right: 60%;
+    /* margin:  */
+}
+
+/* input:hover{
+    width: 55%;
+} */
+
+#sign{
+    /* margin-top: vw; */
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    font-size: 2vw;
+    /* border: 5px solid cyan;
+    border-radius: 8px; */
+}
+
+.btncont{
+    display: flex;
+    justify-content: center;
+}
+
+#btn{
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: center; */
+    font: 600;
+    font-size: 2vw;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(0, 157, 255);
+    width: 20%;
+    padding: 0.4rem;
+    margin-top: 2%;
+    /* margin: 1rem; */
+}
+
+#btn:hover{
+    width: 60%;
+    /* height: 60%; */
+}
+
+@media screen and (max-width: 720px) {
+    .container{
+        display: flex;
+        margin-top: 10%;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column-reverse;
+        /* height: 100%; */
+        width: 100%;
+    }
+    body{
+        overflow: hidden;
+    }
+    .img{
+        /* height: 5%; */
+        margin: 2vw;
+        width: 35%;
+    }
+  }
